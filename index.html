@@ -2,49 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Moses - Data Analyst and IT Strategist Portfolio">
+    <meta name="theme-color" content="#667eea">
+    <title>Moses | Data Analyst & IT Strategist</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <!-- Homepage Section -->
     <header>
+        <div class="profile-container">
+            <img src="images/profile.jpg" alt="Moses - Data Analyst & Developer" class="profile-image">
+        </div>
         <h1>Hi, I'm Moses</h1>
-        <p>Data Analyst and IT Strategist</p>
-        <p>"Transforming data into actionable insights."</p>
-        <a href="#portfolio" class="cta">View My Work</a>
+        <p>Data Analyst & Full-Stack Developer</p>
+        <p>"Transforming data into insights and building scalable solutions."</p>
+        <div class="nav-buttons">
+            <a href="data-analysis.html" class="cta">Data Analysis</a>
+            <a href="development.html" class="cta secondary">Development</a>
+        </div>
     </header>
 
     <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm a passionate Data Analyst with a background in IT strategy. I love solving complex problems and helping businesses make data-driven decisions.</p>
-        <p>Fun fact: I once built a predictive model for my favorite sports team!</p>
+        <p>I'm a versatile professional with expertise in both Data Analysis and Full-Stack Development. I bridge the gap between technical implementation and strategic business insights.</p>
+        <p>With a unique combination of analytical skills and development expertise, I deliver comprehensive solutions that drive business growth and operational excellence.</p>
     </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="project">
-            <h3>Project 1: Sales Dashboard</h3>
-            <p>Tools: Python, Tableau</p>
-            <p>Created an interactive dashboard to visualize sales trends and improve decision-making.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2: Customer Segmentation</h3>
-            <p>Tools: R, SQL</p>
-            <p>Developed a segmentation model to identify key customer groups and improve marketing strategies.</p>
+        <h2>My Expertise</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Data Analysis</h3>
+                <p>Transform complex data into actionable insights</p>
+                <p>Specializing in statistical analysis, predictive modeling, and business intelligence to drive data-informed decision making.</p>
+                <a href="data-analysis.html" class="cta secondary" style="margin-top: 1rem; display: inline-block; padding: 0.5rem 1.5rem; font-size: 0.9rem;">View Data Projects</a>
+            </div>
+            <div class="project">
+                <h3>Development</h3>
+                <p>Build scalable, robust software solutions</p>
+                <p>Expert in full-stack development, system architecture, and creating applications that solve real-world problems efficiently.</p>
+                <a href="development.html" class="cta secondary" style="margin-top: 1rem; display: inline-block; padding: 0.5rem 1.5rem; font-size: 0.9rem;">View Development Projects</a>
+            </div>
         </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
+        <h2>Core Skills</h2>
+        <ul class="skills-container">
             <li>Data Analysis</li>
-            <li>Web Design</li>
-            <li>Enterprise Architecture</li>
+            <li>Full-Stack Development</li>
+            <li>System Architecture</li>
+            <li>Cloud Computing</li>
+            <li>Machine Learning</li>
+            <li>Business Intelligence</li>
+            <li>Project Management</li>
+            <li>Strategic Planning</li>
         </ul>
     </section>
 
@@ -59,5 +75,7 @@
     <footer>
         <p>&copy; 2025 Moses. All rights reserved.</p>
     </footer>
+    
+    <script src="scripts/main.js"></script>
 </body>
 </html>
